@@ -1,0 +1,204 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left img{
+    margin: 1.5rem;
+    margin-left: 30px;
+    padding: 2px;
+    height: 4rem;
+    width: 4rem;
+}
+.logotag{
+    color:rgb(142,134,132);
+    margin-top:-20px;
+ 
+    text-align: center;
+  
+    margin-left: 0rem;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+    word-spacing: 2px;
+}
+.logotag::first-letter{
+    color: darkred;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-text {
+    animation: blink 3s infinite;
+    background-color: rgb(161,36,54);
+    border-radius: 50%;
+}
+.mid{
+   
+margin: auto;
+
+
+
+}
+
+.navbar{
+    display: flex;
+    margin: auto;
+}
+
+.navbar li{
+
+list-style: none;
+margin-left: 10px;
+margin-top: 1rem;
+padding: 10px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(220,216,213);
+
+}
+.navbar li a:hover{
+    color:rgb(161,36,54) ;
+    font-size: 23px;
+     font-weight: 700;
+     font-family: fantasy;
+  transition: all 1s;
+}
+
+
+
+.reach-out{
+    display: flex;
+    list-style: none;
+}
+.reach-out li{
+    margin: 10px;
+    margin-top: 30px;
+}
+#instagram{
+    
+    font-size: 30px;
+    color: white;
+    margin-top: 31px;
+    margin-right: 11px;
+}
+#whatsapp{
+  
+    font-size: 30px;
+
+    margin-top: 31px;
+    margin-right: 11px;
+    color: white;
+}
+#google{
+    font-size: 30px;
+
+    margin-top: 31px;
+    margin-right: 20px;
+    color: white;
+}
+#instagram:hover{
+    color:#AD389E;
+    transition: color 1s;
+    
+   
+}
+#whatsapp:hover{
+    color: #1AD03F;
+   transition: color 1s;
+    
+}
+#google:hover{
+    color: red;
+    transition: color 1s;
+}
+.container{
+    margin-top: 105px;
+    margin-left:120px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 400px;
+}
+form {
+    width: 95%;
+    margin: 2px 2px;
+    
+    
+    
+  }
+  form label{
+    text-align: center;
+    font-size: 20px;
+    font-family:  'Righteous', cursive;
+    font-weight:900 ;
+    color: white;
+
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+background-color: transparent;
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    background-color:rgb(142,134,132);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40%;
+    font-family:'Righteous', cursive ;
+    font-weight: 900;
+    font-size: 20px;
+    
+  }
+  
+  button:hover {
+    background-color: transparent;
+  }
+
+  
+.above-form{
+    text-align: center;
+    font-size: 31px;
+    font-family:  'Righteous', cursive;
+    font-weight:700;
+    color: rgb(142,134,132);
+}
+.above-form::first-letter{
+color: darkred;
+text-transform: capitalize;
+font-size: 50px;
+font-weight: 700;
+}
